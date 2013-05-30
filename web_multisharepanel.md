@@ -11,3 +11,10 @@ Shareaholic makes it easy for you to share any link via an easy to use Share Pan
 Example:
 
     https://www.shareaholic.com/share/?url=http://www.google.com/&title=Check+out+Google
+    
+    
+Screenshots:
+
+  ![Multi Share Panel Screenshot 1](https://github.com/shareaholic/shareaholic-api-docs/blob/master/assets/images/multi-share-panel-standalone-1.png "Multi Share Panel")
+  
+  ![Multi Share Panel Screenshot 2](https://github.com/shareaholic/shareaholic-api-docs/blob/master/assets/images/multi-share-panel-standalone-1.png "Multi Share Panel")
