@@ -15,6 +15,6 @@ Example:
     
 Screenshots:
 
-  ![Multi Share Panel Screenshot 1](https://github.com/shareaholic/shareaholic-api-docs/blob/master/assets/images/multi-share-panel-standalone-1.png "Multi Share Panel")
+  ![Multi Share Panel Screenshot 1](https://github.com/shareaholic/shareaholic-api-docs/blob/master/assets/images/multi-share-panel-standalone-1.png?raw=true "Multi Share Panel")
   
-  ![Multi Share Panel Screenshot 2](https://github.com/shareaholic/shareaholic-api-docs/blob/master/assets/images/multi-share-panel-standalone-1.png "Multi Share Panel")
+  ![Multi Share Panel Screenshot 2](https://github.com/shareaholic/shareaholic-api-docs/blob/master/assets/images/multi-share-panel-standalone-1.png?raw=true "Multi Share Panel")
