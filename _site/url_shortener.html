@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Shareaholic-api-docs by shareaholic</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Shareaholic-api-docs</h1>
+        <p>Shareaholic Public API &amp; SDK documentation</p>
+
+        <p class="view"><a href="https://github.com/shareaholic/shareaholic-api-docs">View the Project on GitHub <small>shareaholic/shareaholic-api-docs</small></a></p>
+      <ul><li><a href='online_sharing.html'>online sharing</a></li><li><a href='test.html'>test</a></li><li><a href='url_shortener.html'>url shortener</a></li></ul>
+      </header>
+
+      <section>
+      <h2 id='url_shortener_api'>URL Shortener API</h2>
+
+<p>Shareaholic can automatically shorten any link for you using a shortening service that you specify.</p>
+
+<p>https://shareaholic.com/v2/share/shorten_link</p>
+
+<pre><code>?url=       (required; example: http://www.google.com/)
+&amp;service=   (optional; tinyurl | bitly | jmp | google | shrlc)
+&amp;api_key=   (optional)
+&amp;login=     (optional)</code></pre>
+
+<p>Example 1:</p>
+
+<pre><code>https://shareaholic.com/v2/share/shorten_link?url=http://google.com/&amp;service=google</code></pre>
+
+<p>Success result:</p>
+
+<pre><code>{&quot;status_code&quot;:&quot;200&quot;,&quot;data&quot;:&quot;http://goo.gl/2C60w&quot;}</code></pre>
+
+<p>You can further customize this option with your own bitly and google key if you&#8217;d like by passing in additional <code>api_key</code> and/or <code>login</code> parameters. If you pass this, the API will use your key to shorten the link.</p>
+
+<p>Example 2:</p>
+
+<pre><code>https://shareaholic.com/v2/share/shorten_link?url=http://google.com/&amp;service=bitly&amp;api_key=[INSERT YOUR BITLY API KEY]&amp;login=[INSERT YOUR BITLY LOGIN]</code></pre>
+
+<p>Success result:</p>
+
+<pre><code>{&quot;status_code&quot;:&quot;200&quot;,&quot;data&quot;:&quot;http://bit.ly/18yU7Q9&quot;}</code></pre>
+
+<p>Error result:</p>
+
+<pre><code>{&quot;status_code&quot;:&quot;400&quot;,&quot;data&quot;:{&quot;message&quot;:&quot;Invalid URI&quot;}}</code></pre>
+      </section>
+
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/shareaholic">shareaholic</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
+</html>

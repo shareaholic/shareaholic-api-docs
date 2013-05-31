@@ -19,11 +19,28 @@
         <p>Shareaholic Public API &amp; SDK documentation</p>
 
         <p class="view"><a href="https://github.com/shareaholic/shareaholic-api-docs">View the Project on GitHub <small>shareaholic/shareaholic-api-docs</small></a></p>
-      {% show_all_pages %}
+      <ul><li><a href='online_sharing.html'>online sharing</a></li><li><a href='test.html'>test</a></li><li><a href='url_shortener.html'>url shortener</a></li></ul>
       </header>
 
       <section>
-      {{content}}
+      <h2 id='share_panel_web_endpoint'>Share Panel Web Endpoint</h2>
+
+<p>Shareaholic makes it easy for you to share any link via an easy to use Share Panel web endpoint.</p>
+
+<p>https://shareaholic.com/share/</p>
+
+<pre><code>?url=       (required; example: http://www.google.com/)
+&amp;title=     (required; example: Check+out+Google)</code></pre>
+
+<p>Example:</p>
+
+<pre><code>https://www.shareaholic.com/share/?url=http://www.google.com/&amp;title=Check+out+Google</code></pre>
+
+<p>Screenshots:</p>
+
+<p><img alt='Multi Share Panel Screenshot 1' src='images/multi-share-panel-standalone-1.png' /></p>
+
+<p><img alt='Multi Share Panel Screenshot 2' src='images/multi-share-panel-standalone-2.png' /></p>
       </section>
 
       <footer>
