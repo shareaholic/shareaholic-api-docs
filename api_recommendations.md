@@ -28,7 +28,7 @@ Shareaholic Recommendations & Related Content API surfaces contextually relevant
           ],
           "api_key": "3d0c541a698210cd569a9368ded0a742",
           "url": "http://erincooks.com",
-          "sponsored": 3,
+          "sponsored": 0,
           "internal": 6
       },
       "internal": [
@@ -82,9 +82,10 @@ Shareaholic Recommendations & Related Content API surfaces contextually relevant
           }
       ],
       "sponsored": []
-  }```
-    
-       
+  }
+  ```
+
+  
 **Response codes:**
 
   * 200 OK
