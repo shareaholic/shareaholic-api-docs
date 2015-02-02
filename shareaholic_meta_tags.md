@@ -4,39 +4,39 @@ Shareaholic Content Meta Tags
 If you would like, you can provide Shareaholic with more information about your content. This is done via Shareaholic Content Meta Tags.  These meta tags are placed in the `<head>` of your webpage. You can also use a generic meta tag, an Open Graph tag (og:), Twitter tag (twitter:) or a Shareaholic-specific meta tag. The latter overrides the former in all cases.
 
 
-**Canonical URL**
+**Canonical URL** - The canonical URL for the webpage
 
 `<meta name='shareaholic:url' content='https://blog.shareaholic.com/pinterest-for-business-tactics/' />`
 
-**Thumbnail** (URL)
+**Thumbnail** (URL) - An image that represents the webpage
 
-`<meta name='shareaholic:image' content='https://blog.shareaholic.com/wp-content/uploads/2014/08/pinterest-tablet.jpg' />`       
+`<meta name='shareaholic:image' content='https://blog.shareaholic.com/wp-content/uploads/2014/08/pinterest-tablet.jpg' />`      
 
-**Author Name**
+**Author Name** - The name of the author of the content of the webpage
 
 `<meta name='shareaholic:article_author_name' content='Nicole Kohler' />`
 
-**Author Link** (URL)
+**Author Link** (URL) - An URL to the profile of the author of the content of the webpage
 
 `<meta name='shareaholic:article_author' content='https://blog.shareaholic.com/author/dwong/' />`
 
-**Keywords**
+**Keywords** - Keywords associated with the content of the webpage
 
 `<meta name='shareaholic:keywords' content='business, guest post, marketing, nicole kohler, pinterest' />`
 
-**Language**
+**Language** - Language of the content of the webpage
 
 `<meta name='shareaholic:language' content='en-US' />`
 
-**Published timestamp** (ISO 8601)
+**Published timestamp** (ISO 8601) - Timestamp for when the content of the webpage was first published
 
 `<meta name='shareaholic:article_published_time' content='2014-08-05T17:53:26+00:00' />`
 
-**Last Modified timestamp** (ISO 8601)
+**Last Modified timestamp** (ISO 8601) - Timestamp for when the content on the webpage was last modified
 
 `<meta name='shareaholic:article_modified_time' content='2014-08-19T12:48:49+00:00' />`
 
-**Site Name**
+**Site Name** - The site name which should be displayed for the overall site
 
 `<meta name='shareaholic:site_name' content='The Shareaholic Content Marketing Blog' />`
 
