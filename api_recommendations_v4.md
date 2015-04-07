@@ -1,19 +1,21 @@
-Recommendations & Related Content API v5
+Recommendations & Related Content API v4 (Deprecated)
 ---
+***
+**Warning:** Recommendations & Related Content API v4 is no longer supported. All customers must upgrade to [the latest version](https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_recommendations.md) of the API as soon as possible to avoid disruptions to your application.
+***
 
 Shareaholic Recommendations & Related Content API surfaces contextually relevant content from a given website and around the web that is personalized to a given reader.
 
-  http(s)://recommendations.shareaholic.com/v5/recommend
+  http(s)://recommendations.shareaholic.com/v4/recommend
   
-    ?location=  (required; example: http://www.google.com/ - url of the source page)
-    &internal=  (required; integer - the number of internal pages to return in the response. The actual amount returned may be less than requested)
-    &api_key=   (required)
-    &sponsored= (optional; integer -  Indicates the number of sponsored pages to return in the response. The actual amount returned may be less than requested)
-    &canonical= (optional; the canonical URL of the page if known)
+    ?url=         (required; example: http://www.google.com/ - the canonical url of the source page)
+    &internal=    (required; integer - the number of internal pages to return in the response. The actual amount returned may be less than requested)
+    &sponsored=   (optional; integer -  Indicates the number of sponsored pages to return in the response. The actual amount returned may be less than requested)
+    &api_key=     (required)
     
 **Example request:**
 
-    http://recommendations.shareaholic.com/v5/recommend?location=http%3A%2F%2Ferincooks.com&internal=6&sponsored=0&api_key=3d0c541a698210cd569a9368ded0a742
+    http://recommendations.shareaholic.com/v4/recommend?url=http%3A%2F%2Ferincooks.com&internal=6&sponsored=0&api_key=3d0c541a698210cd569a9368ded0a742
   
 **Example response:**
   
@@ -91,4 +93,4 @@ Shareaholic Recommendations & Related Content API surfaces contextually relevant
 
   * 200 OK
   * 202 Accepted - Recommendations are not yet available for the provided api_key and/or url
-  * 400 Bad Request - api_key or location are missing or malformed
+  * 400 Bad Request - api_key or url are missing or malformed
