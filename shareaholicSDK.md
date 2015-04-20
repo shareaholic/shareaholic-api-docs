@@ -32,7 +32,32 @@ Staging (Unstable):
 </script>
 ```
 
-Production TBD:
+Production:
+
+```
+<script>
+  window.ShareaholicBookmarklet = window.ShareaholicBookmarklet || [];
+  ShareaholicBookmarklet.push([
+    'share', {
+      service: 'facebook',
+      link: 'http://www.example.com',
+      title: 'test title',
+      summary: 'this is cool'
+    }, 
+    function (err) {
+      console.log('Sharing invoked ');
+      console.log(err);
+    }])
+</script>
+
+<script 
+  type="text/javascript" 
+  src="//dsms0mj1bbhn4.cloudfront.net/v2/ShareaholicBookmarklet.js"
+  data-shr-assetbase="//dsms0mj1bbhn4.cloudfront.net/v2/"
+  data-shr-namespace="ShareaholicBookmarklet"
+  data-shr-entrypoint="shrMain.js">
+</script>
+```
 
 #### Invoking a share command
 
