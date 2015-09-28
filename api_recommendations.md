@@ -1,6 +1,8 @@
 Recommendations & Related Content API v5
 ---
 
+This API will be deprecated in the near future.  Please see the API Documentation for the Ad Proxy API.
+
 Shareaholic Recommendations & Related Content API surfaces contextually relevant content from a given website and around the web that is personalized to a given reader.
 
   http(s)://recommendations.shareaholic.com/v5/recommend
