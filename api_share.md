@@ -12,7 +12,7 @@ Share Counters
 Service | JSONP | Server Side
 --- | --- | ---
 Facebook | ✔ | ✔
-Twitter |  | 
+Twitter* |  | 
 LinkedIn | ✔ | ✔
 Pinterest | ✔ | ✔
 Yummly | ✔ | ✔
@@ -23,6 +23,8 @@ StumbleUpon |  | ✔
 VK |  | ✔
 Fancy |  | ✔
 Buffer |  | ✔
+
+* Twitter dropped support for share counts on [Nov 20th, 2015](https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform)
 
 Shareaholic JavaScript SDK looks for the following hints, *in this specific order*, to determine the URL to display Share Counts for:
 
