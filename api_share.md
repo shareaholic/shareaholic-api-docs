@@ -12,7 +12,7 @@ Share Counters
 Service | JSONP | Server Side
 --- | --- | ---
 Facebook | ✔ | ✔
-Twitter | ✔ | ✔
+Twitter |  | 
 LinkedIn | ✔ | ✔
 Pinterest | ✔ | ✔
 Yummly | ✔ | ✔
