@@ -60,6 +60,10 @@ Shareaholic Feature Meta Tags
 
 `<meta name="shareaholic:analytics" content="disabled" />`
 
+**Disables Outstream Video Ads**
+
+`<meta name="shareaholic:outstreamads" content="disabled" />`
+
 **Shareaholic for Drupal module version** (automatically added by module)
 
 `<meta name='shareaholic:drupal_version' content='7.x-3.6' />`
