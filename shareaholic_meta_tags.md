@@ -3,6 +3,7 @@ Shareaholic Content Meta Tags
 
 If you would like, you can provide Shareaholic with more information about your content. This is done via Shareaholic Content Meta Tags.  These meta tags are placed in the `<head>` of your webpage. You can also use a generic meta tag, an Open Graph tag (og:), Twitter tag (twitter:) or a Shareaholic-specific meta tag. The latter overrides the former in all cases.
 
+Note: At some point, you may run your site through a W3C validator. All Shareaholic Meta Tags are officially registered with W3.org and should not return any warnings.
 
 **Canonical URL** - The canonical URL for the webpage
 
