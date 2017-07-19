@@ -17,13 +17,14 @@ LinkedIn | ✔ | ✔
 Pinterest | ✔ | ✔
 Yummly | ✔ | ✔
 Delicious* |  | 
-Google+ |  | ✔
+Google+ |✔  | ✔
 Reddit |  | ✔
 StumbleUpon |  | ✔
 VK |  | ✔
 Fancy |  | ✔
 Buffer |✔| ✔
 
+NOtes:n
 * Twitter dropped support for share counts on [Nov 20th, 2015](https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform)
 * Delicious dropped support for share counts in Jan 2016
 
