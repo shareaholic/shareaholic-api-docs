@@ -12,17 +12,17 @@ Share Counters
 Service | JSONP | Server Side
 --- | --- | ---
 Facebook | ✔ | ✔
-Twitter* |  | 
 LinkedIn | ✔ | ✔
 Pinterest | ✔ | ✔
 Yummly | ✔ | ✔
-Delicious* |  | 
 Google+ |✔  | ✔
+Buffer |✔| ✔
 Reddit |  | ✔
 StumbleUpon |  | ✔
 VK |  | ✔
 Fancy |  | ✔
-Buffer |✔| ✔
+Delicious* |  | 
+Twitter* |  | 
 
 NOtes:n
 * Twitter dropped support for share counts on [Nov 20th, 2015](https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform)
