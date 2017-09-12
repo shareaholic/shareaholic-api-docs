@@ -28,13 +28,7 @@ Notes:
 * Twitter dropped support for share counts on [Nov 20th, 2015](https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform)
 * Delicious dropped support for share counts in Jan 2016
 
-Shareaholic JavaScript SDK looks for the following hints, *in this specific order*, to determine the URL to display Share Counts for:
+FAQ
+---
+https://support.shareaholic.com/hc/en-us/categories/200094587-Share-Button-Apps
 
-1. **The "data-link" attribute**.  For example:
-`<div class='shareaholic-canvas' data-app='share_buttons' data-app-id="xxx" data-title='Page Title' data-link='http://www.yourwebsite.com/'></div>`
-2. **Shareaholic URL Meta Tag**. For example: `<meta name="shareaholic:url" content="http://www.yourwebsite.com/" />`
-3. **Canonical Meta Tag**. For example: `<link rel="canonical" href="https://blog.shareaholic.com/" />`
-4. **Open Graph URL Meta Tag**. For example: `<meta name="og:url" content="http://www.yourwebsite.com/" />`
-5. The URL displayed in the web browser address bar
-
-> * Note: if you're using either our WordPress or Drupal plugin, data-link and the Shareaholic URL Meta tags are set automatically.
