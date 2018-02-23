@@ -12,19 +12,17 @@ Share Counters
 Service | JSONP | Server Side
 --- | --- | ---
 Facebook | ✔ | ✔
-LinkedIn | ✔ | ✔
 Pinterest | ✔ | ✔
 Yummly | ✔ | ✔
-Google+ |✔  | ✔
 Buffer |✔| ✔
 Reddit |  | ✔
 StumbleUpon |  | ✔
 VK |  | ✔
 Fancy |  | ✔
-Delicious* |  | 
-Twitter* |  | 
 
 Notes:
+* LinkedIn dropped support for share counts on [Feb 7th, 2018](https://developer.linkedin.com/blog/posts/2018/deprecating-the-inshare-counter)
+* Google+ dropped support for share counts on [Sep 2017](https://plus.google.com/110610523830483756510/posts/Z1FfzduveUo)
 * Twitter dropped support for share counts on [Nov 20th, 2015](https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform)
 * Delicious dropped support for share counts in Jan 2016
 
