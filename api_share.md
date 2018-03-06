@@ -19,6 +19,8 @@ Reddit |  | ✔
 StumbleUpon |  | ✔
 VK |  | ✔
 Fancy |  | ✔
+Odnoklassniki |  | ✔
+Tumblr | ✔ | 
 
 Notes:
 * LinkedIn dropped support for share counts on [Feb 7th, 2018](https://developer.linkedin.com/blog/posts/2018/deprecating-the-inshare-counter)
