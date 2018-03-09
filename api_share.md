@@ -15,11 +15,11 @@ Facebook | ✔ | ✔
 Pinterest | ✔ | ✔
 Yummly | ✔ | ✔
 Buffer |✔| ✔
-Reddit |  | ✔
+Reddit |✔| ✔
 StumbleUpon |  | ✔
-VK |  | ✔
-Fancy |  | ✔
-Odnoklassniki |  | ✔
+VK |✔| ✔
+Fancy |✔| ✔
+Odnoklassniki |✔| ✔
 Tumblr | ✔ | 
 
 Notes:
