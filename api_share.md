@@ -9,7 +9,7 @@ Documentation: https://shareaholic.com/api
 Share Counters
 ---
 
-Service | JSONP | Server Side
+Service | Client Side | Server Side
 --- | --- | ---
 Facebook | ✔ | ✔
 Pinterest | ✔ | ✔
