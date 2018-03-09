@@ -11,16 +11,16 @@ Share Counters
 
 Service | Client Side | Server Side
 --- | --- | ---
-Facebook | ✔ | ✔
-Pinterest | ✔ | ✔
-Yummly | ✔ | ✔
 Buffer |✔| ✔
-Reddit |✔| ✔
-StumbleUpon |  | ✔
-VK |✔| ✔
+Facebook | ✔ | ✔
 Fancy |✔| ✔
 Odnoklassniki |✔| ✔
+Pinterest | ✔ | ✔
+Reddit |✔| ✔
+StumbleUpon |  | ✔
 Tumblr | ✔ | 
+VK |✔| ✔
+Yummly | ✔ | ✔
 
 Notes:
 * LinkedIn dropped support for share counts on [Feb 7th, 2018](https://developer.linkedin.com/blog/posts/2018/deprecating-the-inshare-counter)
