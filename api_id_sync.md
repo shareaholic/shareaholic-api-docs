@@ -24,4 +24,4 @@ The protocol may be either `http` or `https`. The following are examples of vali
     http://pixel.shareaholic.com/sync?r=http://example.com/partners_api?partner_uid=${u_id}
     https://pixel.shareaholic.com/sync?r=http://example.com/partners_api?partner_uid=${u_id}
  
-**In order for you to use this service, your redirect URL (r) needs to be whitelisted by Shareaholic. If you're interested in using this service, please contact us.**
+**In order for you to use this service, your redirect URL (r) needs to be whitelisted by Shareaholic. If you're interested in using this service, please [contact us](https://shareaholic.com/contact).**
