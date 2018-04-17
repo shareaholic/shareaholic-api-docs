@@ -31,3 +31,13 @@ You can further customize this option with your own bitly and google key if you'
   Error result:
   
     {"status_code":"400","data":{"message":"Invalid URI"}}
+    
+  URL shortening also checks if URL is safe or not. In the case of unsafe URL, you will receive original URL and message that indicates why URL is not safe. For example:
+  
+    https://shareaholic.com/v2/share/shorten_link?url=http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL/&service=google
+  
+ Result:
+ 
+   {"status_code":"200","data":"http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL/","shortening_error":"Unsafe URL: Malware (Any platform)"}
+
+    
