@@ -1,7 +1,7 @@
-Ad Proxy API
+Related Content & Native Ads API
 ---
 
-The Ad Proxy serves sponsored advertisements and a publisher's own related content
+Shareaholic Related Content & Native Ads API surfaces contextually relevant content from a given website and native ads from across the web that are personalized to a given site visitor.
 
   http(s)://recs.shareaholic.com/rec/
   
