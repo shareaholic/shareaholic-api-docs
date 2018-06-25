@@ -2,7 +2,7 @@ Recommendations & Related Content API v5
 ---
 
 ***
-**Warning:** Recommendations & Related Content API v5 is no longer supported. All customers must upgrade to [the latest version](https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_ad_proxy.md) of the API as soon as possible to avoid disruptions to your application.
+**Warning:** Recommendations & Related Content API v5 is no longer supported. All customers must upgrade to [the latest version](https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_related_content.md) of the API as soon as possible to avoid disruptions to your application.
 ***
 
 Shareaholic Recommendations & Related Content API surfaces contextually relevant content from a given website and around the web that is personalized to a given reader.
