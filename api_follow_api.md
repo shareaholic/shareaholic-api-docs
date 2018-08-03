@@ -16,3 +16,48 @@ For example:
 #### Authentication
 
 All API endpoints require authentication credentials to be supplied as query arguments (`api_key=...`). To get started, you'll need a free [Shareaholic user account](https://www.shareaholic.com/signup) and Site Profile ID. Signup for an account and then [add a site](https://www.shareaholic.com/sites) to get your Site Profile ID. The Site Profile ID is your API Key.
+
+
+#### Supported Service Nicknames
+
+* facebook
+* twitter
+* mix
+* tumblr
+* livejournal
+* linkedin
+* itunes_podcast
+* google_plus
+* pinterest
+* vk
+* linkedin_company
+* houzz
+* instagram
+* rss
+* youtube
+* vimeo
+* flickr
+* foursquare
+* yelp
+* bloglovin
+* dribbble
+* odnoklassniki
+* etsy
+* github
+* tripadvisor
+* slideshare
+* polyvore
+* stackoverflow
+* about_me
+* behance
+* soundcloud
+* vine
+* ebay
+* five_hundred_px
+* bbb
+* skype
+* google_classroom
+* zillow_digs
+* disqus
+* feedly
+* spotify
