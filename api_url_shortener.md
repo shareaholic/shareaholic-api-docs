@@ -3,7 +3,7 @@ URL Shortener API
 
 Shareaholic can automatically shorten any link for you using a shortening service that you specify.
 
-  https://shareaholic.com/v2/share/shorten_link
+  https://www.shareaholic.com/v2/share/shorten_link
   
     ?url=       (required; example: http://www.google.com/)
     &service=   (optional; tinyurl | bitly | jmp | google | shrlc)
@@ -12,7 +12,7 @@ Shareaholic can automatically shorten any link for you using a shortening servic
     
   Example 1:
 
-    https://shareaholic.com/v2/share/shorten_link?url=http://google.com/&service=google
+    https://www.shareaholic.com/v2/share/shorten_link?url=http://google.com/&service=google
   
   Success result:
 
@@ -22,7 +22,7 @@ You can further customize this option with your own bitly and google key if you'
 
   Example 2:
 
-    https://shareaholic.com/v2/share/shorten_link?url=http://google.com/&service=bitly&api_key=[INSERT YOUR BITLY API KEY]&login=[INSERT YOUR BITLY LOGIN]
+    https://www.shareaholic.com/v2/share/shorten_link?url=http://google.com/&service=bitly&api_key=[INSERT YOUR BITLY API KEY]&login=[INSERT YOUR BITLY LOGIN]
 
   Success result:
 
