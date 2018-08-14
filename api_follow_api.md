@@ -49,7 +49,7 @@ Response:
 
 On request with missing or invalid query arguments error is returned:
 
-    http://spreadaholic.com:8080/v2/follow.js?service_nickname=twitter
+    https://www.shareaholic.com/v2/follow?service_nickname=twitter
 
 ```javascript
 { "errors": [{ "code": "100",
@@ -66,7 +66,7 @@ On request with missing or invalid query arguments error is returned:
 * 101 - `api_key` provided is invalid
 * 110 - `service_nickname` is not provided
 * 111 - `service_nickname` provided is invalid
-* 120 - `username` or `app_id` or `app_id_name` is missing is missing in request or invalid value provided
+* 120 - `username` or `app_id` or `app_id_name` is missing in request or invalid value provided
 
 #### Supported Service Nicknames
 
