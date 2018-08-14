@@ -31,6 +31,43 @@ You can find `app_id` value by clicking "code" link in Follow Buttons overview o
 
 Required query argument are `api_key`, `service_nickname` and one of the following: `username`, `app_id` or `app_id_name`.
 
+#### JavaScript/AJAX requests
+
+It's possible to make follow request that will return JSON, just add `.js` extension to URL path. For example:
+
+     https://www.shareaholic.com/v2/follow.js?service_nickname=twitter&username=beyonce&api_key=8943b7fd64cd8b1770ff5affa9a9437b
+
+Response:
+
+```javascript
+{ "status_code": "200",
+  "data": { "message": "follow created",
+            "link": "https://twitter.com/intent/follow?screen_name=beyonce" } }
+```
+
+#### Errors and error code
+
+On request with missing or invalid query arguments error is returned:
+
+    https://www.shareaholic.com/v2/follow?service_nickname=twitter
+
+```javascript
+{ "errors": [{ "code": "100",
+               "source": { "pointer": "/data/attributes/api-key" },
+               "detail": "Invalid API Key. Register an API key for free or lookup your existing API key at https://www.shareaholic.com/sites." },
+             { "code": "120",
+               "source": { "pointer": "/data/attributes/username" },
+               "detail": "Invalid username, app_id or app_id_name. Check out the docs at https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_follow_api.md for usage examples." }] }
+```
+
+##### List of error codes
+
+* 100 - `api_key` was not provided
+* 101 - `api_key` provided is invalid
+* 110 - `service_nickname` is not provided
+* 111 - `service_nickname` provided is invalid
+* 120 - `username` or `app_id` or `app_id_name` is missing in request or invalid value provided
+
 #### Supported Service Nicknames
 
 * facebook
