@@ -3,17 +3,17 @@ Related Content & Native Ads API
 
 Shareaholic Related Content & Native Ads API surfaces contextually relevant content from a given website and native ads from across the web that are personalized to a given site visitor.
 
-  http(s)://recs.shareaholic.com/rec/
+  https://recs.shareaholic.com/rec/
   
-    ?location=  (required; example: http://www.google.com/ - url of the source page)
+    ?api_key=   (required)
+    &location=  (required; example: http://www.google.com/ - url of the source page)
     &internal=  (required; integer - the number of internal pages to return in the response. The actual amount returned may be less than requested)
-    &api_key=   (required)
     &sponsored= (optional; integer -  Indicates the number of sponsored pages to return in the response. The actual amount returned may be less than requested)
     &canonical= (optional; the canonical URL of the page if known)
-    
+
 **Example request:**
 
-    http://recs.shareaholic.com/rec/?location=http%3A%2F%2Fwww.drewlepp.com%2Fblog%2Fwhat-the-wine-world-can-teach-us-about-user-experience%2F&url=http%3A%2F%2Fwww.drewlepp.com%2Fblog%2Fwhat-the-wine-world-can-teach-us-about-user-experience%2F&canonical=http%3A%2F%2Fwww.drewlepp.com%2Fblog%2Fwhat-the-wine-world-can-teach-us-about-user-experience%2F&internal=18&sponsored=0&api_key=e0fcc37ce89b4f078ce9c78f645793aa
+    https://recs.shareaholic.com/rec/?location=http%3A%2F%2Fwww.drewlepp.com%2Fblog%2Fwhat-the-wine-world-can-teach-us-about-user-experience%2F&url=http%3A%2F%2Fwww.drewlepp.com%2Fblog%2Fwhat-the-wine-world-can-teach-us-about-user-experience%2F&canonical=http%3A%2F%2Fwww.drewlepp.com%2Fblog%2Fwhat-the-wine-world-can-teach-us-about-user-experience%2F&internal=18&sponsored=0&api_key=e0fcc37ce89b4f078ce9c78f645793aa
   
 **Example response:**
   
@@ -80,8 +80,8 @@ Shareaholic Related Content & Native Ads API surfaces contextually relevant cont
   ```
 
   
-**Response codes:**
+#### Response codes
 
-  * 200 OK
-  * 202 Accepted - Recommendations are not yet available for the provided api_key and/or url
-  * 400 Bad Request - api_key or location are missing or malformed
+* 200 OK
+* 202 Accepted - Recommendations are not yet available for the provided api_key and/or url
+* 400 Bad Request - api_key or location are missing or malformed
