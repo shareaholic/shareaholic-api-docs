@@ -40,9 +40,13 @@ It's possible to make follow request that will return JSON, just add `.js` exten
 Response:
 
 ```javascript
-{ "status_code": "200",
-  "data": { "message": "follow created",
-            "link": "https://twitter.com/intent/follow?screen_name=beyonce" } }
+{
+  "status_code": "200",
+  "data": {
+    "message": "follow created",
+    "link": "https://twitter.com/intent/follow?screen_name=beyonce"
+  }
+}
 ```
 
 #### Errors and error code
@@ -52,12 +56,24 @@ On request with missing or invalid query arguments error is returned:
     https://www.shareaholic.com/v2/follow?service_nickname=twitter
 
 ```javascript
-{ "errors": [{ "code": "100",
-               "source": { "pointer": "/data/attributes/api-key" },
-               "detail": "Invalid API Key. Register an API key for free or lookup your existing API key at https://www.shareaholic.com/sites." },
-             { "code": "120",
-               "source": { "pointer": "/data/attributes/username" },
-               "detail": "Invalid username, app_id or app_id_name. Check out the docs at https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_follow_api.md for usage examples." }] }
+{
+  "errors": [
+    {
+      "code": "100",
+      "source": {
+        "pointer": "/data/attributes/api-key"
+      },
+      "detail": "Invalid API Key. Register an API key for free or lookup your existing API key at https://www.shareaholic.com/sites."
+    },
+    {
+      "code": "120",
+      "source": {
+        "pointer": "/data/attributes/username"
+      },
+      "detail": "Invalid username, app_id or app_id_name. Check out the docs at https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_follow_api.md for usage examples."
+    }
+  ]
+}
 ```
 
 ##### List of error codes
