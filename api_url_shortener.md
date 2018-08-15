@@ -1,7 +1,7 @@
 URL Shortener API
 ---
 
-Shareaholic can automatically shorten any link for you using a shortening service that you specify.
+Use the URL Shortener API to shorten any link using a shortening service that you specify.
 
   https://www.shareaholic.com/v2/share/shorten_link
 
