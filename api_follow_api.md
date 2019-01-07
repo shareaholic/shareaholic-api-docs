@@ -127,3 +127,4 @@ On request with missing or invalid query arguments error is returned:
 * disqus
 * feedly
 * spotify
+* wechat
