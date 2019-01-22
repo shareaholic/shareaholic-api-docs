@@ -6,10 +6,10 @@ Shareaholic Related Content & Native Ads API surfaces contextually relevant cont
   https://recs.shareaholic.com/rec/
   
     ?api_key=   (required)
-    &location=  (required; example: http://www.google.com/ - url of the source page)
+    &location=  (required; example: http://www.google.com/ - the URL for which the API should return Related Content for)
     &internal=  (required; integer - the number of internal pages to return in the response. The actual amount returned may be less than requested)
     &sponsored= (optional; integer -  Indicates the number of sponsored pages to return in the response. The actual amount returned may be less than requested)
-    &canonical= (optional; the canonical URL of the page if known)
+    &canonical= (optional; the canonical URL of the page to return Related Content for)
 
 **Example request:**
 
