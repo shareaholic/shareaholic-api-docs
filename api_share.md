@@ -38,7 +38,7 @@ WeChat
 
 Shareaholic makes it easy for you to share any link to WeChat via an easy to use Share Panel web endpoint.
 
-  https://shareaholic.com/share/wechat/
+  https://www.shareaholic.com/share/wechat/
 
     ?link=       (required; example: https://www.shareaholic.com/)
     
@@ -51,7 +51,7 @@ WordPress Press This
 
 Shareaholic makes it easy for you to share any link to WordPress via an easy to use Share Panel web endpoint.
 
-  https://shareaholic.com/share/wordpress/
+  https://www.shareaholic.com/share/wordpress/
 
     ?link=       (required; example: https://www.shareaholic.com/)
     &title=      (required; example: Check+out+Shareaholic)
