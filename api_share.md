@@ -17,12 +17,12 @@ Fancy |✔| ✔
 Odnoklassniki |✔| ✔
 Pinterest | ✔ | ✔
 Reddit |✔| ✔
-StumbleUpon |  | ✔
 Tumblr | ✔ | 
 VK |✔| ✔
 Yummly | ✔ | ✔
 
 Notes:
+* StumbleUpon was shut down in 2018
 * LinkedIn dropped support for share counts on [Feb 7th, 2018](https://developer.linkedin.com/blog/posts/2018/deprecating-the-inshare-counter)
 * Google+ dropped support for share counts in [Sep 2017](https://plus.google.com/110610523830483756510/posts/Z1FfzduveUo)
 * Delicious dropped support for share counts in Jan 2016
