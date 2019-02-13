@@ -32,3 +32,33 @@ FAQ
 ---
 https://support.shareaholic.com/hc/en-us/categories/200094587-Share-Button-Apps
 
+
+WeChat
+---
+
+Shareaholic makes it easy for you to share any link to WeChat via an easy to use Share Panel web endpoint.
+
+  https://shareaholic.com/share/
+
+    ?link=       (required; example: https://www.shareaholic.com/)
+    
+Example:
+
+    https://www.shareaholic.com/share/wechat/?link=https://www.shareaholic.com/
+  
+WordPress Press This
+---
+
+Shareaholic makes it easy for you to share any link to WordPress via an easy to use Share Panel web endpoint.
+
+  https://shareaholic.com/share/
+
+    ?link=       (required; example: https://www.shareaholic.com/)
+    &title=      (required; example: Check+out+Shareaholic)
+    &text=       (optional; example: "This is great")
+    &media_link= (optional); example: https://www.shareaholic.com/assets/social-share.jpg)
+
+Example:
+
+    https://www.shareaholic.com/share/wordpress/?link=http://www.google.com/&title=Check+out+Google
+
