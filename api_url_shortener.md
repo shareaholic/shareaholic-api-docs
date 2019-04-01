@@ -6,7 +6,7 @@ Use the URL Shortener API to shorten any link using a shortening service that yo
   https://www.shareaholic.com/v2/share/shorten_link
 
     ?url=       (required; example: http://www.google.com/)
-    &service=   (optional; tinyurl | bitly | jmp | google | shrlc)
+    &service=   (optional; tinyurl | bitly | jmp | shrlc)
     &api_key=   (optional)
     &login=     (optional)
 
@@ -27,7 +27,7 @@ Success result:
 
 🔗[Try Me: Shorten URL - http://google.com](https://www.shareaholic.com/v2/share/shorten_link?url=http://google.com/&service=shrlc)
 
-You can further customize this option with your own `bitly` and `google` key if you'd like by passing in an additional `api_key` and/or `login` parameters. If you pass this, the URL Shortener API will use your key to shorten the link.
+You can further customize this option with your own `bitly` key if you'd like by passing in an additional `api_key` and/or `login` parameters. If you pass this, the URL Shortener API will use your key to shorten the link.
 
 Example 2 (with custom key):
 
