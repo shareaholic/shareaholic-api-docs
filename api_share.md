@@ -17,7 +17,7 @@ Fancy |✔| ✔
 Odnoklassniki |✔| ✔
 Pinterest | ✔ | ✔
 Reddit |✔| ✔
-Tumblr | ✔ | 
+Tumblr | ✔ | ✔ 
 VK |✔| ✔
 Yummly | ✔ | ✔
 
