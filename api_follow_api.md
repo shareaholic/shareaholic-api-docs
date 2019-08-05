@@ -6,8 +6,12 @@ Use the Follow API to link your audience to your various social media profiles t
   https://www.shareaholic.com/v2/follow/
 
     ?service_nickname=  (required; example: twitter)
-    &username=  (required; example: beyonce)
-    &api_key=   (required; example: 8943b7fd64cd8b1770ff5affa9a9437b)
+    &api_key=           (required; example: 8943b7fd64cd8b1770ff5affa9a9437b)
+    &username=          (optional; example: beyonce)
+    &app_id=            (optional; example: 1234)
+    &app_id_name=       (optional; example: contact_page_placement)
+
+*One of either `username`, `app_id` or `app_id_name` is required*
 
 For example:
 
@@ -86,45 +90,46 @@ On request with missing or invalid query arguments error is returned:
 
 #### Supported Service Nicknames
 
+* about_me
+* bbb
+* behance
+* bloglovin
+* disqus
+* dribbble
+* ebay
+* etsy
 * facebook
-* twitter
-* mix
-* tumblr
-* livejournal
-* linkedin
-* itunes_podcast
-* google_plus
-* pinterest
-* vk
-* linkedin_company
-* houzz
-* instagram
-* rss
-* youtube
-* vimeo
+* feedly
+* five_hundred_px
 * flickr
 * foursquare
-* yelp
-* bloglovin
-* dribbble
-* odnoklassniki
-* etsy
 * github
-* tripadvisor
-* slideshare
-* polyvore
-* stackoverflow
-* about_me
-* behance
-* soundcloud
-* vine
-* ebay
-* five_hundred_px
-* bbb
-* skype
 * google_classroom
-* zillow_digs
-* disqus
-* feedly
+* google_plus
+* houzz
+* instagram
+* itunes_podcast
+* linkedin
+* linkedin_company
+* livejournal
+* mix
+* odnoklassniki
+* pinterest
+* polyvore
+* rss
+* skype
+* slideshare
+* soundcloud
 * spotify
+* stackoverflow
+* tripadvisor
+* tumblr
+* twitch
+* twitter
+* vimeo
+* vine
+* vk
 * wechat
+* yelp
+* youtube
+* zillow_digs
