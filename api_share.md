@@ -23,7 +23,9 @@ Shareaholic makes it easy for you to share any link to WeChat via an easy to use
 Example:
 
     https://www.shareaholic.com/share/wechat/?link=https://www.shareaholic.com/
-  
+
+💚[Share to WeChat](https://www.shareaholic.com/share/wechat/?link=https://www.shareaholic.com/)
+
 WordPress Press This
 ---
 
@@ -39,4 +41,6 @@ Shareaholic makes it easy for you to share any link to WordPress via an easy to 
 Example:
 
     https://www.shareaholic.com/share/wordpress/?link=http://www.google.com/&title=Check+out+Google
+
+💚[Share to WordPress](https://www.shareaholic.com/share/wordpress/?link=http://www.google.com/&title=Check+out+Google)
 
