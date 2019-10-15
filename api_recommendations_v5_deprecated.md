@@ -1,4 +1,4 @@
-Recommendations & Related Content API v5
+Recommendations & Related Content API v5 (deprecated)
 ---
 
 ***
