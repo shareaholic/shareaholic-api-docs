@@ -8,4 +8,6 @@ shareaholic-api-doc
 * [URL Shortener Service](https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_url_shortener.md)
 * [Multi Share Panel Web Endpoint](https://github.com/shareaholic/shareaholic-api-docs/blob/master/web_multisharepanel.md)
 * [Identity Match Service](https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_id_sync.md)
+* [YARPP - Yet Another Related Posts Plugin](https://github.com/shareaholic/shareaholic-api-docs/blob/master/yarpp.md)
+
 
