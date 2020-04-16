@@ -7,7 +7,7 @@ YARPP SDK
 <!-- YARPP -->
 <link rel='preload' href='//cdn.yarpp.com/assets/pub/yarpp.js' as='script' />
 <script>
-(function(y,a,r,p,s){;y[s]=y[s]||function(){(y[s].q=y[s].q||[]).push(arguments)};b=a.createElement(r),c=a.getElementsByTagName(r)[0];b.async=1;b.dataset.cfasync='false';b.src=p;c.parentNode.insertBefore(b,c)})(window,document,'script','//cdn.yarpp.com/assets/pub/yarpp.js','Yarpp');
+(function(y,a,r,p,s){;y[s]=y[s]||function(){(y[s].q=y[s].q||[]).push(arguments)};b=a.createElement(r),c=a.getElementsByTagName(r)[0];b.async=1;b.src=p;c.parentNode.insertBefore(b,c)})(window,document,'script','//cdn.yarpp.com/assets/pub/yarpp.js','Yarpp');
 Yarpp('init',siteId);
 </script>
 <!-- End YARPP -->
