@@ -3,7 +3,7 @@ YARPP SDK
 
 # Installation
 
-```
+```html
 <!-- YARPP -->
 <link rel='preload' href='//cdn.yarpp.com/assets/pub/yarpp.js' as='script' />
 <script>
@@ -32,7 +32,7 @@ recommendation clicks. Recommendation links are identified using a CSS selector.
 selector, `.yarpp-related`, is valid for most cases, but it can be overridden to support custom
 templates by setting `window._YARPP_SETTINGS`:
 
-```
+```html
 <script>
 window._YARPP_SETTINGS = {
   analytics: {
@@ -47,7 +47,7 @@ the selector can be ignored by setting the `data-yarpp-noanalytics` attribute or
 `yarpp-noanalytics` class to the anchor elements.
 
 Example of matching and non-matching elements:
-```
+```html
 <script>
 window._YARPP_SETTINGS = {
   analytics: {
