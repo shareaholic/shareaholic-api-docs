@@ -1,7 +1,7 @@
 Social Follow API
 ---
 
-Use the Follow API to link your audience to your various social media profiles to grow your social influence on Facebook, Twitter, Pinterest, YouTube, Instagram, etc. If you're unable to use the [Shareaholic JavaScript SDK](https://www.shareaholic.com/website-tools/), you can link to these API endpoints directly.
+Use the Follow API to link your audience to your various social media profiles to [grow your social influence](https://www.shareaholic.com/website-tools/social-follow-buttons/) on Facebook, Twitter, Pinterest, YouTube, Instagram, etc. If you're unable to use the [Shareaholic JavaScript SDK](https://www.shareaholic.com/website-tools/), you can link to these API endpoints directly.
 
   https://www.shareaholic.com/v2/follow/
 
