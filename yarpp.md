@@ -62,3 +62,22 @@ window._YARPP_SETTINGS = {
 </div>
 <a href="https://four.com" class="yarpp-related">Four</a> <!-- match - matches selector exactly -->
 ```
+
+# Google Analytics integration
+
+YARPP can automatically append Google Analytics parameters to recommendation URLs. The best way to
+do this is via the yarpp.com settings page.
+
+You can also override the values by settings `window._YARPP_SETTINGS`:
+
+```html
+<script>
+window._YARPP_SETTINGS = {
+  ga: {
+    utm_campaign: /* optional string */,
+    utm_medium: /* optional string */,
+    utm_source: /* optional string */
+  }
+};
+</script>
+```
