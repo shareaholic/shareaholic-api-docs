@@ -73,10 +73,12 @@ You can also override the values by settings `window._YARPP_SETTINGS`:
 ```html
 <script>
 window._YARPP_SETTINGS = {
-  ga: {
-    utm_campaign: /* optional string */,
-    utm_medium: /* optional string */,
-    utm_source: /* optional string */
+  analytics: {
+    ga: {
+      utm_campaign: /* optional string */,
+      utm_medium: /* optional string */,
+      utm_source: /* optional string */
+    }
   }
 };
 </script>
