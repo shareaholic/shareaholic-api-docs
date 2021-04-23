@@ -14,7 +14,7 @@ Use the URL Shortener API to shorten any link using a shortening service that yo
 
 #### Authentication
 
-All API endpoints require authentication credentials to be supplied as query arguments. To get started, you'll need a free Shareaholic account and Site ID. Signup for an account and then add a site to get your Site ID. The Site ID is your API Key.
+All API endpoints require authentication credentials to be supplied as query arguments. To get started, you'll need a free [Shareaholic account](https://www.shareaholic.com/signup) and Site ID. Signup for an account and then add a site to get your Site ID. The Site ID is your API Key for the URL Shortener API.
 
 Example:
 ```
@@ -80,7 +80,7 @@ URL Shortener API also checks if the provided `URL` is safe or not with the help
 For example:
 
 ```html
-https://shareaholic.com/v2/share/shorten_link?apikey=8943b7fd64cd8b1770ff5affa9a9437b&url=http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL/&service[name]=shrlc
+https://www.shareaholic.com/v2/share/shorten_link?apikey=8943b7fd64cd8b1770ff5affa9a9437b&url=http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL/&service[name]=shrlc
 ```
 
 Result:
