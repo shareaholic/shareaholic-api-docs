@@ -8,9 +8,7 @@ Use the URL Shortener API to shorten any link using a shortening service that yo
     ?url=                (required; example: http://www.google.com/)
     &apikey=             (required; example: 8943b7fd64cd8b1770ff5affa9a9437b)
     &service[name]=      (optional; tinyurl | bitly | jmp | shrlc)
-    &service[api_key]=   (optional)
-    &service[login]=     (optional)
-
+    &service[token]=     (optional)
 
 #### Authentication
 
@@ -40,12 +38,12 @@ Success result:
 
 🔗[Try Me: Shorten URL - http://google.com](https://www.shareaholic.com/v2/share/shorten_link?apikey=8943b7fd64cd8b1770ff5affa9a9437b&url=http://google.com/&service[name]=shrlc)
 
-You can further customize this option with your own `bitly` key if you'd like by passing in an additional `api_key` and/or `login` parameters. If you pass this, the URL Shortener API will use your key to shorten the link.
+You can further customize this option with your own `bitly` [Generic Access Token](https://bitly.is/accesstoken) if you'd like by passing in an additional `service[token]` parameter. If you pass this, the URL Shortener API will use your personal key to shorten the link.
 
 Example 2 (with custom key):
 
 ```html
-https://www.shareaholic.com/v2/share/shorten_link?apikey=8943b7fd64cd8b1770ff5affa9a9437b&url=http://google.com/&service[name]=bitly&service[api_key]=[INSERT YOUR BITLY API KEY]&service[login]=[INSERT YOUR BITLY LOGIN]
+https://www.shareaholic.com/v2/share/shorten_link?apikey=8943b7fd64cd8b1770ff5affa9a9437b&url=http://google.com/&service[name]=bitly&service[token]=[INSERT YOUR BITLY Generic Access Token]
 ```
 
 Success result:
