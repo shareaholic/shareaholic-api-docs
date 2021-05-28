@@ -116,6 +116,25 @@ API topics:
 
 * `modal.close`: the modal window has been closed
 
+## shareaholic.js API
+
+If shareaholic.js is [installed on your page](https://support.shareaholic.com/hc/en-us/articles/200803757-Installing-and-Setting-Up-Shareaholic-on-Your-Site),
+you have access to the shareaholic.js API which can provide programmatic access to Shareaholic
+functionality.
+
+If you want to use the API, we recommend doing it in a separate `<script>` tag like this:
+```
+<script>
+(function(s,r){;s[r]=s[r]||function(){(s[r].q=s[r].q||[]).push(arguments)}})(window,'Shareaholic');
+
+// perform calls here
+Shareaholic('getShareCounts', (counts) => { /* ... */ });
+</script>
+```
+
+The first bit of code ensures that your command will be received regardless of when it is done. You
+can even include this code block before the shareaholic.js code block.
+
 ### getShareCounts API
 
 Any page that has the SDK installed can use the Shareaholic API to get per-service share counts
@@ -123,8 +142,9 @@ Any page that has the SDK installed can use the Shareaholic API to get per-servi
 
 Here is the TypeScript definition for the call:
 ```
-Shareaholic('getShareCounts', { services?: string[], url?: string }) => Promise<{ [service: string]: number }>
-Shareaholic('getShareCounts', { services?: string[], url?: string[] }) => Promise<{ [url: string]: { [service: string]: number } }>
+Shareaholic('getShareCounts', cb: ({ [service: string]: number }) => void);
+Shareaholic('getShareCounts', { services?: string[], url?: string }, cb: ({ [service: string]: number }) => void);
+Shareaholic('getShareCounts', { services?: string[], url?: string[] }, cb: ({ [url: string]: { [service: string]: number } }) => void);
 ```
 Note how the response varies depending on whether a single or multiple URLs are passed in.
 
@@ -135,11 +155,36 @@ Note how the response varies depending on whether a single or multiple URLs are 
 
 Example usages:
 ```
-Shareaholic('getShareCounts', { services: ['facebook', 'pinterest'], url: 'https://www.shareaholic.com/blog' })
-// will return Promise<{ facebook: 44, pinterest: 8, total: 52 }>
+Shareaholic(
+    'getShareCounts',
+    { services: ['facebook', 'pinterest'], url: 'https://www.shareaholic.com/blog' },
+    (counts) => /* ... */,
+);
+// counts value will be { facebook: 44, pinterest: 8, total: 53 }
 
-Shareaholic('getShareCounts', { services: ['facebook', 'pinterest'], url: ['https://www.shareaholic.com/blog', 'https://www.shareaholic.com/blog/gigya-best-social-sharing-alternative/'] })
-// will return Promise<{
-//                       'https://www.shareaholic.com/blog/gigya-best-social-sharing-alternative/': { facebook: 4, pinterest: 0, total: 4 },
-//                       'https://www.shareaholic.com/blog': { facebook: 44, pinterest: 8, total: 52 }
-//                     }>
+Shareaholic(
+    'getShareCounts',
+    { services: ['facebook', 'pinterest'],
+    url: ['https://www.shareaholic.com/blog', 'https://www.shareaholic.com/blog/gigya-best-social-sharing-alternative/'] },
+    (counts) => /* ... */,
+);
+// counts value will be {
+//                        'https://www.shareaholic.com/blog/gigya-best-social-sharing-alternative/': { facebook: 4, pinterest: 0, total: 4 },
+//                        'https://www.shareaholic.com/blog': { facebook: 44, pinterest: 8, total: 52 }
+//                      }
+```
+
+Given an HTML structure like:
+```
+<div id="fb-share-counts">-</div>
+```
+Here's how you would update the contents of the div:
+```
+Shareaholic(
+    'getShareCounts',
+    { services: ['facebook'] },
+    (counts) => {
+        document.querySelector('#fb-share-counts').innerText = counts.facebook;
+    },
+);
+```
