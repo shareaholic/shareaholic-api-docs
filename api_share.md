@@ -44,3 +44,18 @@ Example:
 
 💚[Share to WordPress](https://www.shareaholic.com/share/wordpress/?link=http://www.google.com/&title=Check+out+Google)
 
+Copy Link
+---
+
+Shareaholic makes it easy for you to copy and scan (QR Code) any link via an easy to use Share Panel web endpoint.
+
+  https://www.shareaholic.com/share/copy/
+
+    ?link=       (required; example: https://www.shareaholic.com/)
+    
+Example:
+
+    https://www.shareaholic.com/share/copy/?link=https://www.shareaholic.com/
+
+💚[Copy Link](https://www.shareaholic.com/share/copy/?link=https://www.shareaholic.com/)
+
