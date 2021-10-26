@@ -188,3 +188,6 @@ Shareaholic(
     },
 );
 ```
+
+[More examples](https://www.shareaholic.com/sharecounter#code)
+
