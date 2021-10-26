@@ -11,8 +11,9 @@ Developer Tools and APIs that are reliable, stable, and fast. Built and run on t
 * [Recommendations & Related Content API](https://github.com/shareaholic/shareaholic-api-docs/blob/master/api_related_content.md)
 * [Shareaholic Meta Tags](https://github.com/shareaholic/shareaholic-api-docs/blob/master/shareaholic_meta_tags.md)
 * [URL Shortener API](https://www.shareaholic.com/api/shortener/)
+* [Share Count Lookup & SDK](https://www.shareaholic.com/sharecounter/)
 * [QR Code Generator API](https://www.shareaholic.com/api/qrcode/)
-* [Identity Match Service](https://www.shareaholic.com/api/match/)
+* [Identity Match API](https://www.shareaholic.com/api/match/)
 * [YARPP - Yet Another Related Posts Plugin](https://github.com/shareaholic/shareaholic-api-docs/blob/master/yarpp.md)
 
 
