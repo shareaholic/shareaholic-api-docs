@@ -3,7 +3,7 @@ Share API
 
 Use the Share API to quickly connect your siteto each of the major social networks for sharing. It's 100% FREE to use, simple, reliable, fast. Used & seen by millions every day.
 
-Documentation: https://www.shareaholic.com/api
+Documentation: https://www.shareaholic.com/api/share/
 
 
 FAQ
@@ -14,7 +14,7 @@ https://support.shareaholic.com/hc/en-us/categories/200094587-Share-Button-Apps
 WeChat
 ---
 
-Shareaholic makes it easy for you to share any link to WeChat via an easy to use Share Panel web endpoint.
+Shareaholic makes it easy for you to share any link to WeChat via an easy to use Share endpoint.
 
   https://www.shareaholic.com/share/wechat/
 
@@ -29,7 +29,7 @@ Example:
 WordPress Press This
 ---
 
-Shareaholic makes it easy for you to share any link to WordPress via an easy to use Share Panel web endpoint.
+Shareaholic makes it easy for you to share any link to WordPress via an easy to use Share endpoint.
 
   https://www.shareaholic.com/share/wordpress/
 
@@ -42,12 +42,12 @@ Example:
 
     https://www.shareaholic.com/share/wordpress/?link=http://www.google.com/&title=Check+out+Google
 
-💚[Share to WordPress](https://www.shareaholic.com/share/wordpress/?link=http://www.google.com/&title=Check+out+Google)
+💚[Share to WordPress](https://www.shareaholic.com/share/wordpress/?link=http://www.shareaholic.com/&title=Check+out+Shareaholic)
 
 Copy Link
 ---
 
-Shareaholic makes it easy for you to copy and scan (QR Code) any link via an easy to use Share Panel web endpoint.
+Shareaholic makes it easy for you to copy and scan (QR Code) any link via an easy to use Share endpoint.
 
   https://www.shareaholic.com/share/copy/
 
@@ -58,4 +58,22 @@ Example:
     https://www.shareaholic.com/share/copy/?link=https://www.shareaholic.com/
 
 💚[Copy Link](https://www.shareaholic.com/share/copy/?link=https://www.shareaholic.com/)
+
+Mastodon
+---
+
+Shareaholic makes it easy for you to share any link to a Mastodon instance via an easy to use Share endpoint.
+
+  https://www.shareaholic.com/share/mastodon/
+
+    ?link=       (optional; example: https://www.shareaholic.com/)
+    &title=      (optional; example: Check+out+Shareaholic)
+    &text=       (optional; example: "This is great")
+    &instance=   (optional; example: https://mastodon.social)
+    
+Example:
+
+    https://www.shareaholic.com/share/mastodon/?link=https://www.shareaholic.com/
+
+💚[Share to Mastodon](https://www.shareaholic.com/share/mastodon/?link=http://www.shareaholic.com/&title=Check+out+Shareaholic)
 
