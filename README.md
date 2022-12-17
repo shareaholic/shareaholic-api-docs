@@ -8,7 +8,7 @@ Developer Tools and APIs that are reliable, stable, and fast. Built and run on t
 * [Share API](https://www.shareaholic.com/api/)
 * [Social Follow API](https://www.shareaholic.com/api/follow/)
 * [Recommendations & Related Content API](https://www.shareaholic.com/api/content/)
-* [Shareaholic Meta Tags](https://github.com/shareaholic/shareaholic-api-docs/blob/master/shareaholic_meta_tags.md)
+* [Shareaholic Meta Tags](https://www.shareaholic.com/api/content/#contentmetatags)
 * [URL Shortener API](https://www.shareaholic.com/api/shortener/)
 * [Share Count Lookup & SDK](https://www.shareaholic.com/sharecounter/)
 * [QR Code Generator API](https://www.shareaholic.com/api/qrcode/)
