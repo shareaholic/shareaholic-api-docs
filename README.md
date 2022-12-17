@@ -6,7 +6,6 @@ Developer Tools and APIs that are reliable, stable, and fast. Built and run on t
 -> https://www.shareaholic.com/developers
 
 * [Share API](https://www.shareaholic.com/api/)
-  * [Multi Share Panel Web Endpoint](https://github.com/shareaholic/shareaholic-api-docs/blob/master/web_multisharepanel.md)
 * [Social Follow API](https://www.shareaholic.com/api/follow/)
 * [Recommendations & Related Content API](https://www.shareaholic.com/api/content/)
 * [Shareaholic Meta Tags](https://github.com/shareaholic/shareaholic-api-docs/blob/master/shareaholic_meta_tags.md)
